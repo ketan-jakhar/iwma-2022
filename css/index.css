@@ -1,0 +1,36 @@
+body {
+	background-image: url("../asset/images/bg_1.jpg");
+}
+
+.index-ht {
+	margin-top: 90px !important;
+}
+
+.index-ht h1 {
+	font-size: 3.5em;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1.25px;
+}
+
+.title-para {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.college-web {
+	text-decoration: none;
+	color: #fff;
+}
+
+.countdown {
+	color: #faebd7;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+}
+
+@media (max-width: 425px) {
+	.index-ht h1 {
+		font-size: 2.5em;
+	}
+}

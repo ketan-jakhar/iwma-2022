@@ -1,0 +1,15 @@
+.schedule-box {
+	height: 150px;
+	text-decoration: none;
+	vertical-align: middle;
+	transition: all 0.25s ease-in-out;
+}
+
+.schedule-box:hover {
+	background-color: #7b68ee;
+	cursor: pointer;
+}
+
+.schedule-box:hover * {
+	color: #fff;
+}

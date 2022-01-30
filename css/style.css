@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	/* color: #fff; */
+}
+
+body {
+	background-color: #fff5ee;
+	scroll-behavior: smooth;
+}
+
+nav {
+	z-index: 100;
+}
+
+.navbar {
+	min-width: 100%;
+	transition: all 0.25s ease;
+}
+
+.nav-white {
+	background-color: #fff;
+	color: #000;
+	box-shadow: 1px 2px 3px #444;
+}
+
+.brand-black {
+	color: #000 !important;
+	transition: all 0.25s ease;
+}
+
+.brand-black span {
+	color: #000;
+	transition: all 0.25s ease;
+}
+
+.brand-white {
+	color: #fff !important;
+	transition: all 0.25s ease;
+}
+
+.brand-white span {
+	color: #fff;
+	transition: all 0.25s ease;
+}
+
+.fas {
+	color: #fff;
+}
+
+.title-div {
+	margin-top: 90px !important;
+}
+
+.navbar-brand span {
+	font-weight: 800;
+}
+
+.nav-link {
+	color: #000 !important;
+}
+
+.btn:hover {
+	color: #fff;
+	text-decoration: none !important;
+}
+
+.navbar-brand,
+.nav-link {
+	text-decoration: none;
+	/* letter-spacing: 1.05px; */
+	transition: all 0.25s ease;
+}
+
+.nav-item:last-child .nav-link:hover {
+	color: #fff !important;
+}
+
+.nav-link:hover {
+	text-decoration: none;
+	color: #8b0000 !important;
+}
+
+.active {
+	transition: all 0.2s ease-in-out;
+	color: #8b0000 !important;
+	font-weight: bold;
+}
+
+.lds-dual-ring {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+}
+.lds-dual-ring:after {
+	content: " ";
+	display: block;
+	width: 64px;
+	height: 64px;
+	margin: 8px;
+	border-radius: 50%;
+	border: 6px solid #fff;
+	border-color: #fff transparent #fff transparent;
+	animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.bg-title-image {
+	background-image: url("../asset/images/bg_1.jpg");
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+.page-title {
+	font-size: 4rem;
+	color: #fff;
+}
+
+.title-div p a {
+	text-decoration: none;
+	color: #fff !important;
+}
+
+.info-section * {
+	color: #000;
+}
+
+.footer {
+	background-color: #000 !important;
+	color: #fff !important;
+	margin-bottom: 0;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #afeeee !important;
+}
+
+@media (max-width: 992px) {
+	.navbar {
+		background-color: #fff !important;
+	}
+
+	.navbar-brand,
+	.navbar-brand span {
+		color: #000 !important;
+	}
+}
