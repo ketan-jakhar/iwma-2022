@@ -9,6 +9,7 @@
 body {
 	background-color: #fff5ee;
 	scroll-behavior: smooth;
+	min-height: 100vh;
 }
 
 nav {
@@ -89,31 +90,6 @@ nav {
 	font-weight: bold;
 }
 
-.lds-dual-ring {
-	display: inline-block;
-	width: 80px;
-	height: 80px;
-}
-.lds-dual-ring:after {
-	content: " ";
-	display: block;
-	width: 64px;
-	height: 64px;
-	margin: 8px;
-	border-radius: 50%;
-	border: 6px solid #fff;
-	border-color: #fff transparent #fff transparent;
-	animation: lds-dual-ring 1.2s linear infinite;
-}
-@keyframes lds-dual-ring {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}
-
 .bg-title-image {
 	background-image: url("../asset/images/bg_1.jpg");
 	width: 100%;
@@ -140,7 +116,7 @@ nav {
 .footer {
 	background-color: #000 !important;
 	color: #fff !important;
-	margin-bottom: 0;
+	margin-top: auto;
 }
 
 .footer a {
