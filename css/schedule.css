@@ -3,10 +3,12 @@
 	text-decoration: none;
 	vertical-align: middle;
 	transition: all 0.25s ease-in-out;
+	border: 1px solid #000;
 }
 
 .schedule-box:hover {
 	background-color: #7b68ee;
+	border: 1px solid #7b68ee;
 	cursor: pointer;
 }
 
