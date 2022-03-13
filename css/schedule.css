@@ -1,17 +1,40 @@
-.schedule-box {
-	height: 150px;
-	text-decoration: none;
-	vertical-align: middle;
-	transition: all 0.25s ease-in-out;
-	border: 1px solid #000;
+.day-x-schedule div {
+	background-color: #fff;
+	min-height: 180px;
+	border-radius: 5px;
+	padding: 20px 30px;
 }
 
-.schedule-box:hover {
+.timewise-schedule-box {
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+}
+
+.day-x-schedule div img {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+}
+
+.speaker-name {
+	color: #7b68ee;
+}
+
+.active-day {
+	background-color: #7b68ee !important;
+	color: #fff !important;
+}
+
+.active-day h5,
+.active-day p {
+	color: #fff;
+}
+
+.active-schedule {
+	display: block;
+}
+
+.schedule-blue {
 	background-color: #7b68ee;
-	border: 1px solid #7b68ee;
-	cursor: pointer;
-}
-
-.schedule-box:hover * {
 	color: #fff;
 }
